@@ -1,0 +1,20 @@
+﻿
+    <div ng-controller="paymentCtrl">
+        <div class="input-append" ng-repeat="payment in user.payments">
+            <select ng-model="payment.type">
+                <option value="">--Select--</option>
+                <option value="1">Cash Drop</option>
+                <option value="2">Fleet Car</option>
+                <option value="2">EFT</option>
+            </select>
+            <input type="number" ng-model="payment.amount" />
+            <button ng-click="remove($index)">X</button>
+
+
+        </div>
+
+        <button ng-click="add()">Add</button>
+        <pre>{{user | json}}</pre>
+
+        <button ng-click="Save()" class="btn btn-success">Save</button>
+    </div>

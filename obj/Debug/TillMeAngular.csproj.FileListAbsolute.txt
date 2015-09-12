@@ -1,0 +1,40 @@
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\bin\roslyn\csc.exe
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\bin\roslyn\Microsoft.CSharp.Core.targets
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\bin\roslyn\System.Collections.Immutable.dll
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\bin\roslyn\System.Reflection.Metadata.dll
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\bin\roslyn\vbc.exe
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\bin\roslyn\VBCSCompiler.exe
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\bin\roslyn\VBCSCompiler.exe.config
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\bin\TillMeAngular.dll.config
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\bin\TillMeAngular.dll
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\bin\TillMeAngular.pdb
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\obj\Debug\TillMeAngular.csprojResolveAssemblyReference.cache
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\obj\Debug\TillMeAngular.dll
+\\mac\home\documents\visual studio 2015\Projects\TillMeAngular\TillMeAngular\obj\Debug\TillMeAngular.pdb
+C:\Projects\TillMeAngular\TillMeAngular\bin\roslyn\csc.exe
+C:\Projects\TillMeAngular\TillMeAngular\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\TillMeAngular\TillMeAngular\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\TillMeAngular\TillMeAngular\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\TillMeAngular\TillMeAngular\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\TillMeAngular\TillMeAngular\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\TillMeAngular\TillMeAngular\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\TillMeAngular\TillMeAngular\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\TillMeAngular\TillMeAngular\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\TillMeAngular\TillMeAngular\bin\roslyn\vbc.exe
+C:\Projects\TillMeAngular\TillMeAngular\bin\roslyn\VBCSCompiler.exe
+C:\Projects\TillMeAngular\TillMeAngular\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\TillMeAngular\TillMeAngular\bin\TillMeAngular.dll.config
+C:\Projects\TillMeAngular\TillMeAngular\bin\TillMeAngular.dll
+C:\Projects\TillMeAngular\TillMeAngular\bin\TillMeAngular.pdb
+C:\Projects\TillMeAngular\TillMeAngular\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\TillMeAngular\TillMeAngular\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\TillMeAngular\TillMeAngular\obj\Debug\TillMeAngular.csprojResolveAssemblyReference.cache
+C:\Projects\TillMeAngular\TillMeAngular\obj\Debug\TillMeAngular.dll
+C:\Projects\TillMeAngular\TillMeAngular\obj\Debug\TillMeAngular.pdb
