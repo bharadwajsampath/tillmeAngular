@@ -1,0 +1,56 @@
+
+<div ng-controller="meterCtrl">
+    <h1>Meter Readings</h1>
+    <table class="table">
+        <thead>
+
+        <th>Meter Type</th>
+        <th>Reading</th>
+        </thead>
+        <tbody>
+
+        <tr ng-repeat="detail in Meter.Details">
+            <td>
+                <div class="input-group">
+
+                    <select ng-model="detail.Type" class="form-control" ng-options="meter for meter in MeterType">
+                        <option value="">--Select a Meter Type--</option>
+                    </select>
+
+
+                </div>
+            </td>
+            <td>
+                <div class="input-group">
+
+                    <input ng-model="detail.Reading" class="form-control"/>
+
+                </div>
+            </td>
+
+            <td>
+
+                <button class="btn btn-danger" ng-click="Remove($index)">Remove</button>
+                <button ng-if="$index = $last" class="btn btn btn-info" ng-click="Add()">Add new</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <div class="col-md-1 col-md-offset-11">
+                    <button class="btn btn btn-success" ng-click="Save()">Save</button>
+                </div>
+            </td>
+        </tr>
+
+
+
+
+        </tbody>
+
+
+
+    </table>
+
+
+    <pre>{{Meter|json}}</pre>
+</div>

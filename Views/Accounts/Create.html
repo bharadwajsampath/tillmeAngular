@@ -1,0 +1,37 @@
+
+
+<!-- Accounts Controller -->
+<div class="well" ng-controller="accountCtrl">
+    <h1>Accounts</h1>
+    <div class="row">
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Customer</span>
+            <select ng-model="detail.Name" class="form-control" ng-options="customer for customer in Customers"></select>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Accounts</span>
+            <select ng-model="detail.AccountName" class="form-control" ng-options="account for account in CustomerAccounts"></select>
+        </div>
+
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Amount</span>
+            <input ng-model="detail.Amount" class="form-control"/>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Litres</span>
+            <input ng-model="detail.Litres" class="form-control"/>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-2 col-md-offset-10">
+            <button ng-click="Save()" class="btn btn-success">Save</button>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <pre>{{detail|json}}</pre>
+    </div>
+
+</div>

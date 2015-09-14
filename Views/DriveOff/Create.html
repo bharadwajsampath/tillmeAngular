@@ -1,0 +1,27 @@
+
+<div class="well" ng-controller="driveoffCtrl">
+    <div >
+        <div class="col-md-12">
+            Rego Number : <input type="text" ng-model="detail.rego"/>
+        </div>
+        <div class="col-md-12">
+            Car Color : <input type="text" ng-model="detail.color"/>
+        </div>
+        <div class="col-md-12">
+            Car Make : <input type="text" ng-model="detail.carMake"/>
+        </div>
+        <div class="col-md-12">
+            Litres: <input type="text" ng-model="detail.litres"/>
+        </div>
+        <div class="col-md-12">
+            Amount: <input type="text" ng-model="detail.amount"/>
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <button ng-click="Save()">Save</button>
+    </div>
+    <pre>{{detail | json}}</pre>
+
+
+</div>

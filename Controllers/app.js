@@ -39,10 +39,34 @@ angular
                 templateUrl: 'views/dashboard/reports.html'
             })
             .state('payments', {
-                templateUrl: 'views/Payment/List.html',
+                templateUrl: 'views/Payment/Create.html',
                 controller: 'paymentCtrl',
                 parent: 'dashboard',
                 url: '/payment'
+            })
+         .state('accounts', {
+                templateUrl: 'views/Accounts/Create.html',
+                controller: 'accountCtrl',
+                parent: 'dashboard',
+                url: '/acount'
+            })
+            .state('driveoff', {
+                templateUrl: 'views/DriveOff/Create.html',
+                controller: 'driveoffCtrl',
+                parent: 'dashboard',
+                url: '/driveoff'
+            }) 
+            .state('meters', {
+                templateUrl: 'views/Meters/Create.html',
+                controller: 'meterCtrl',
+                parent: 'dashboard',
+                url: '/meters'
+            })
+        .state('invoices', {
+                templateUrl: 'views/Invoices/Create.html',
+                controller: 'invoiceCtrl',
+                parent: 'dashboard',
+                url: '/invoices'
             })
             .state('payments.create', {
                 url: '/create',
@@ -52,6 +76,7 @@ angular
 
                
             });
+        
 
 
     });

@@ -1,0 +1,59 @@
+
+<!-- Invoices -->
+<div class="well" ng-controller="invoiceCtrl">
+    <h1>Invoices</h1>
+
+    <div class="row">
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Supplier</span>
+            <select ng-model="detail.SupplierName" class="form-control" ng-options="supplier for supplier in Suppliers">
+            <option value="">--select--</option></select>
+  
+        </div>
+
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Date</span>
+            <input type="text" class="form-control" ng-model="detail.Date" id="date"/>
+
+        </div>
+
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Amount</span>
+            <input type="text" class="form-control" ng-model="detail.Amount"/>
+
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Invoice</span>
+            <input type="text" class="form-control" ng-model="detail.InvoiceNo"/>
+
+        </div>
+
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">GST</span>
+            <input type="text" class="form-control" ng-model="detail.GST"/>
+
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Status</span>
+            <select ng-model="detail.PaymentStatus" class="form-control" >
+            <option value="">--select--</option>
+            <option value="1">Paid</option>
+            <option value="2">Not paid</option>
+            <option value="3">Invoiced</option>
+      
+</select>
+        </div>
+         <div class="input-group" ng-if="detail.PaymentStatus=='1'">
+            <span class="input-group-addon" id="basic-addon1">Cheque Number</span>
+             <input type="text" class="form-control" ng-model="detail.ChequeNo" />
+
+        </div>
+
+
+    </div>
+    <pre>
+{{detail|json}}
+</pre>
+
+
+</div>
